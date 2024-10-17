@@ -8,7 +8,8 @@ setup(name='ucdev',
       author='Taisuke Yamada',
       author_email='tai@remove-if-not-spam.rakugaki.org',
       license='MIT',
-      packages=['ucdev'],
+      packages=find_packages(),
+      package_data={'ucdev': ['cy7c65211/*']},  # Include the cy7c65211 directory
       classifiers=[
           'License :: OSI Approved :: MIT License',
           'Intended Audience :: Developers',
